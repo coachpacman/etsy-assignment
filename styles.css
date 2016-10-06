@@ -1,0 +1,70 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
+
+#header {
+	height: 120px;
+	background: red;
+}
+
+#search {
+	height: 66%;
+	background: green;
+}
+
+#search #search_logo, #search input, #search div {
+	display: inline-block;
+}
+
+#search input {
+	margin-top: 20px;
+}
+
+#search .float_right {
+	float: right;
+}
+
+#search .float_left {
+	float: left;
+}
+
+#nav {
+	height: 33%;
+	background: purple;
+	clear: both;
+}
+
+#search_logo {
+	background-image: url(assets/etsyLogo.png);
+	height: 76px;
+	width: 200px;
+	background-position-y: -30px;
+	background-repeat: no-repeat;
+	background-size: 116px 125px;
+}
+
+#search_cart {
+	background-image: url(assets/cart.png);
+	height: 34px;
+	width: 32px;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#search_cart + p {
+	margin: 0;
+}
+
+ul, li {
+	display:inline-flex;
+	list-style: none;
+	margin-left: -13px;
+	/*float: left;*/
+}
+
