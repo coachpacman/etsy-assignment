@@ -37,58 +37,107 @@
 		</div>
 		<div id="body">
 			<div id="col1">
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			<h4>Refine your search<h4>
-
-			<div>
-				<div>
-					<p>Shop location</p>
-					<input type="radio" id="anywhere">
-					<label for="anywhere">Anywhere</label>
-					<input type="radio" id="us">
-					<label for="us">United States</label>
+				<div id="col1_categoryList">
+					<ul>
+						<li><a href="#">Home &amp Living</a></li>
+						<li><a href="#">Arts &amp Collectibles</a></li>
+						<li><a href="#">Weddings</a></li>
+						<li><a href="#">Clothing</a></li>
+						<li><a href="#">Paper &amp Party Supplies</a></li>
+						<li><a href="#">Jewelry</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Craft Supplies &amp Tools</a></li>
+						<li><a href="#">Bags &amp Purses</a></li>
+						<li><a href="#">Bath &amp Beauty</a></li>
+						<li><a href="#">Shoes</a></li>
+						<li><a href="#">Books, Movies &amp Music</a></li>
+						<li><a href="#">Electronics &amp Accessories</a></li>
+						<li><a href="#">Toys &amp Games</a></li>
+						<li><a href="#">Pet Supplies</a></li>
+					</ul>
 				</div>
+				<p>Refine your search<p>
 				<div>
-					<p>Item type</p>
-					<input type="radio" id="allItems">
-					<label for="allItems">All items</label>
-					<input type="radio" id="handmade">
-					<label for="handmade">Handmade</label>
-					<input type="radio" id="vintage">
-					<label for="vintage">Vintage</label>
-				</div>
 					<div>
-					<p>Price ($)</p>
-					<input type="text" value="Low">
-					<p>to</p>
-					<input type="text" value="High">
-				
+						<p>Shop location</p>
+						<input type="radio" id="anywhere">
+						<label for="anywhere">Anywhere</label>
+						<input type="radio" id="us">
+						<label for="us">United States</label>
+					</div>
+					<div>
+						<p>Item type</p>
+						<input type="radio" id="allItems">
+						<label for="allItems">All items</label>
+						<input type="radio" id="handmade">
+						<label for="handmade">Handmade</label>
+						<input type="radio" id="vintage">
+						<label for="vintage">Vintage</label>
+					</div>
+					<div>
+						<p>Price ($)</p>
+						<input type="text" value="Low">
+						<p>to</p>
+						<input type="text" value="High">
+						<button></button>							
+					</div>
+					<div>
+						<p>Filter by color</p>
+						<ul>
+							<li><a class="swatch" style="background-color: #f40b32" href="#"></a></li>
+							<li><a class="swatch" style="background-color: #ff7f00" href="#"></a></li>
+							<li><a class="swatch" style="background-color: #f3cc0c" href="#"></a></li>
+							<li><a class="swatch" style="background-color: #0ac20a" href="#"></a></li>
+							<li><a class="swatch" style="background-color: #0cccf3" href="#"></a></li>
+							<li><a class="swatch" style="background-color: #a60cf3" href="#"></a></li>
+							<li><a class="swatch" style="background-color: #000000" href="#"></a></li>
+							<li><a class="swatch" style="background-color: #ffffff" href="#"></a></li>
+						</ul>
+					</div>
+					<div>
+						<p>Ordering options</p>
+						<div>
+							<input type="checkbox" id="acceptsEtsy">
+							<label for="acceptsEtsy">Accepts Etsy gift cards</label>
+						</div>
+						<div>
+							<input type="checkbox" id="customize">
+							<label for="customize">Customizable</label>
+						</div>							
+					</div>
+					<div>
+						<p>Ship to</p>
+						<select name="ship_to" class="select select-custom" id="ship_to_select">
+	                		<option value="ZZ">Choose country...</option>
+	                     	<optgroup label="————————">
+					            <option value="AU">Australia</option> 
+					            <option value="CA">Canada</option>
+					            <option value="FR">France</option>
+					            <option value="DE">Germany</option>
+					            <option value="GR">Greece</option>
+					            <option value="IE">Ireland</option>				            
+					            <option value="IT">Italy</option>
+					            <option value="JP">Japan</option>
+					            <option value="NZ">New Zealand</option>
+					            <option value="PT">Portugal</option>
+					            <option value="RU">Russia</option>
+					            <option value="ES">Spain</option>
+					            <option value="NL">The Netherlands</option>
+					            <option value="GB">United Kingdom</option>
+					            <option value="US" selected="selected">United States</option>
+	                		</optgroup>
+						</select>
+					</div>
 				</div>
-			</div>
 
 			</div>
-			<div id="col2"></div>
+		<div id="col2"></div>
 		<div id="footer"></div>
 
 
 		</div>
 	</div>
+
 
 
 </body>
