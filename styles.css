@@ -12,13 +12,10 @@ html {
 	background: red;
 }
 
-#col1 {
-	width: 20%;
-}
 
 #search {
 	height: 66%;
-	background: green;
+	background: #FFFFFF;
 }
 
 #search #search_logo, #search input, #search div {
@@ -43,13 +40,22 @@ html {
 	clear: both;
 }
 
+#body {
+
+}
+
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
 #search_logo {
-	background-image: url(assets/etsyLogo.png);
+	background-image: url(assets/etsy_logo_lg_rgb.png);
 	height: 76px;
 	width: 200px;
-	background-position-y: -30px;
+	background-position-y: -17px;
 	background-repeat: no-repeat;
-	background-size: 116px 125px;
+	background-size: 159px 104px;
 }
 
 #search_cart {
@@ -67,8 +73,12 @@ html {
 
 ul, li {
 	list-style: none;
-	margin-left: -13px;
+	margin-left: 0px;
 	float: left;
+}
+
+.navItems {
+	margin-left: 0px;
 }
 
 .swatch {
@@ -79,6 +89,37 @@ ul, li {
 }
 
 #col1 {
+	width: 20%;
+	/*display:inline-block;*/
 	background: orange;
+	float:left;
+	margin-left: -832px;
 }
+
+#col2 {
+	background: purple;
+	width: 80%;
+	left: 280px;
+}
+
+.categoryTopRow {
+	height: 100px;
+	width: 50px;
+	background-color: cyan;
+	display: inline-block;
+}
+
+.categoryTopRow img {
+	height: 50%;
+	width: 50%;
+}
+.test {
+	margin-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-right: 10px	;
+}
+
+
 
