@@ -4,6 +4,15 @@
 	background: blue;
 }
 */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
 .search {
 	height: 81px;
 	width: 100%;
@@ -18,7 +27,7 @@
 }
 
 #body {
-	height: 1000px;
+	height: 3629px;
 	width: 100%;
 	background: #F5F5F1;
 	display: flex;
@@ -39,11 +48,15 @@
 #col2 {
 	height: 1000px;
 	width: 80%;
-	display: flex;
-	justify-content: space-between;
 	padding-top: 58px;
 	padding-right: 36px;
-	/*background: purple;*/
+}
+
+#topRow, #secondRow, .galleryRow {
+	height: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
 #showResults, #refineSearch {
@@ -59,6 +72,47 @@
 
 .topRow {
 	height: 300px;
-	width: 30%;
+	width: 32%;
 	background: red;
 }
+
+.secondRow, .galleryItem {
+	height: 200px;
+	width: 24%;
+	background: purple;
+}
+
+#secondRow, .galleryRow {
+	margin: 18px 0;
+	height: 200px;
+}
+
+.galleryItem {
+	background: green;
+}
+
+#footer {
+	width: 100%;
+	height: 400px;
+	background: magenta;
+	padding-left: 288px;
+}
+
+#related {
+	display: flex;
+	/*background: pink;*/
+	height: 100px;
+	width: 100%;
+}
+
+#pageCounter, #subscribeSignUp {
+	height: 40px;
+	width: 400px;
+	background: aqua;
+}
+
+#subscribe {
+	padding-left: 300px;
+}
+
+
