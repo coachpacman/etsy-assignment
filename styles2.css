@@ -37,7 +37,7 @@ html {
 
 input {
 	margin-top: 22px;
-	width: 400px;
+	width: 379px;
 	border-radius: 3px;	
 	font-size: 14px;
 	outline: none;
@@ -155,7 +155,7 @@ h5 {
 li {
 	list-style: none;
 	float: left;
-	margin-right: 28px;
+	margin-right: 50px;
 	color: #777777;
 	font-size: 14px;
 }
@@ -201,21 +201,22 @@ li {
 	/*margin: -7px;*/
 }
 
-#showResults, #refineSearch {
-	height: 401px;
+#showResults {
+	height: 449px;
+	width: 100%;
+	background: #FFFFFF;
+	margin-bottom: 4px;
+}
+
+#refineSearch {
+	height: 661px;
 	width: 100%;
 	background: #FFFFFF;
 }
 
-#showResults {
-	margin-bottom: 4px;
-	padding-left:0;
-/*	margin-top: 58px;
-*/}
-
 .col1List a {
 	text-decoration: none;
-	line-height: 2.38;
+	line-height: 2.0;
 }
 
 .col1List {
@@ -306,7 +307,7 @@ label {
 	display: block;
 }
 
-.radio-label {
+.radio-label, .checkbox-label {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 13px;
@@ -325,7 +326,7 @@ label {
 	left: 0;
 	top: 1px;
 }
-.radio {
+.radio, .checkbox {
 	opacity: 0;
 	margin-right: 0;
 	position: absolute;
@@ -337,7 +338,7 @@ label {
 	vertical-align: middle;
 }
 
-.radio-custom {
+.radio-custom, .checkbox-custom {
 	position: relative;
 	padding-left: 22px;
 	margin-bottom: 5px;
@@ -410,4 +411,82 @@ label {
 	left: 13px;
 }
 
+.swatch {
+	border: 1px solid #E2E2E2;
+	border-radius: 3px;
+	height: 22px;
+	width: 22px;
+	padding: 1px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+
+.swatchList {
+	margin: 0px;
+	margin-right: 3px;
+}
+
+.swatchListContainer {
+	display: flex;
+	padding-left: 0px;
+}
+
+.checkbox-label:before {
+	border-radius: 3px;
+	height: 18px;
+	width: 18px;
+	background: #FFF;
+	border: 1px solid #CBCCC9;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 1px;
+}
+
+.select {
+	display: block;
+	font-size: 14px;
+	height: 38px;
+	padding-left: 12px;
+	width: 100%;
+	-webkit-appearance: none;	
+	position: relative;
+}
+
+.select:focus {
+	outline:none;
+}
+
+.select-custom {
+	border-radius: 3px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+	background-color: #FFF;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.select-custom:hover {
+	border-color: #ADAEAA;
+}
+
+.select-wrap {
+	position: relative;
+}
+
+.select-wrap:after {
+	position: absolute;
+	content: "";
+	display: block;
+	height: 0px;
+	width: 0px;
+	border: 6px solid transparent;
+	border-top-color: #CBCCC9;
+	top: 17px;
+	left: 173px;
+}
+
+.shipToComponent {
+	border-bottom: transparent;
+}
 
