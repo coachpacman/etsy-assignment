@@ -225,7 +225,7 @@ li {
 .col1List {
 	margin-left: -13px;
 	font-size: 13px;
-	margin-right: 50px;
+	margin-right: 54px;
 }
 
 .col1List_header, .componentTitle {
@@ -246,40 +246,63 @@ li {
 	height: 300px;
 	width: 32%;
 	background: red;
+	opacity: 0.85;
+	transition: opacity 0.25s;
 } 
+
+.topRow:hover, .secondRow:hover {
+	opacity: 1;
+}
 
 .topRow:first-child {
 	background: url(assets/engravedWhiskeyBottle.jpg);
+	background-size: 410px 304px;
+
 }
 
 .topRow:nth-child(2) {
 	background: url(assets/whiskeyLetterPress.jpg);
+	background-size: 402px 372px;
+	background-position-x: -34px;
+	background-position-y: -55px;
+
 }
 
 .topRow:nth-child(3) {
 	background: url(assets/whiskeyGlass.jpg);
+	background-size: 398px 298px;
+	background-position-x: -32px;
 }
 
 .secondRow {
 	height: 200px;
 	width: 24%;
 	background: purple;
+	opacity: 0.85;
+	transition: opacity 0.25s;
 }
 
 .secondRow:first-child {
 	background: url(assets/whiskeyTank.jpg);
+	background-size: 256px;
+	background-position-y: -50px;
 }
 
 .secondRow:nth-child(2) {
 	background: url(assets/groomsmanGlass.jpg);
+	background-size: 256px;
+	background-position-y: -30px;
 }
 
 .secondRow:nth-child(3) {
 	background: url(assets/whiskeyCuffLinks.jpg);
+	background-size: 362px;
+	background-position-x: -100px;
 }
 
 .secondRow:nth-child(4) {
 	background: url(assets/whiskeyRing.jpg);
+	background-size: 255px;
 }
 
 
