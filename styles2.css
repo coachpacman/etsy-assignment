@@ -129,14 +129,23 @@ input:focus {
 }
 
 #nav {
-	height: 45px;
+	height: 30px;
 	width: 100%;
 	background: #FFFFFF;
+	border-bottom: 1px solid #DDDDD9;
 }
 
 .shift_right {
 	margin-right: 15px;
 	float: right;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-right: 28px;
+	color: #777777;
+	font-size: 14px;
 }
 
 #body {
