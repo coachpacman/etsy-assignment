@@ -223,12 +223,17 @@ li {
 	font-size: 13px;
 }
 
-.col1List_header {
+.col1List_header, .componentTitle {
 	text-decoration: none;
 	margin-left: -27px;
 	color: #444444;
 	font-weight: bold;
 	font-size: 13px;
+}
+
+.componentTitle {
+	margin-left: 2px;
+	margin-bottom: 8px;
 }
 
 .topRow {
@@ -294,5 +299,70 @@ li {
 
 .rounded {
 	border-radius: 3px;
+}
+
+label {
+	display: block;
+}
+
+.radio-label {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 13px;
+	text-decoration: none;
+	/*font-weight: bold;*/
+}
+
+.radio-label:before	{
+	border-radius: 50%;
+	height: 18px;
+	width: 18px;
+	background: #FFF;
+	border: 1px solid #CBCCC9;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 1px;
+}
+.radio {
+	opacity: 0;
+	margin-right: 0;
+	position: absolute;
+	left: 1px;
+	top: -20px;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+}
+
+.radio-custom {
+	position: relative;
+	padding-left: 22px;
+	margin-bottom: 5px;
+}
+
+.radio-custom *:checked+.radio-label:before {
+	background: #34A8C4;
+	border-color: #ADAEAA;
+	box-shadow: inset 0 1px 4px -1px #F5F5F1, inset 0 0 0 3px #FFF;
+}
+
+.label_item {
+	margin-left: 2px;
+}
+
+.refineSearchComponent {
+	line-height: 1.2;
+	margin: auto;
+	width: 90%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 21px;
+	padding-left: 0px;
+}
+
+.priceInput {
+	width: 60px;
+	background-color: #FFF;
 }
 
