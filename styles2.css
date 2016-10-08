@@ -142,6 +142,10 @@ h5 {
 	border-bottom: 1px solid #DDDDD9;
 }
 
+.navItems:hover {
+	color: black;
+}
+
 .shift_right {
 	margin-right: 15px;
 	float: right;
