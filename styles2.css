@@ -155,7 +155,7 @@ h5 {
 li {
 	list-style: none;
 	float: left;
-	margin-right: 50px;
+	margin-right: 26px;
 	color: #777777;
 	font-size: 14px;
 }
@@ -169,8 +169,8 @@ li {
 
 #col1 {
 	height: 1000px;
-	width: 20%;
-	border-right: 1px solid #E2E2E2;
+	width: 21%;
+	/*border-right: 1px solid #E2E2E2;*/
 	display: flex;
 	flex-direction: column;
 	padding-left: 36px;
@@ -182,7 +182,7 @@ li {
 #col2 {
 	height: 1000px;
 	width: 80%;
-	padding-top: 58px;
+	padding-top: 9px;
 	padding-right: 36px;
 }
 
@@ -206,12 +206,15 @@ li {
 	width: 100%;
 	background: #FFFFFF;
 	margin-bottom: 4px;
+	border: 1px solid #E1E3DF;
 }
 
 #refineSearch {
 	height: 661px;
 	width: 100%;
 	background: #FFFFFF;
+	border: 1px solid #E1E3DF;
+
 }
 
 .col1List a {
@@ -222,6 +225,7 @@ li {
 .col1List {
 	margin-left: -13px;
 	font-size: 13px;
+	margin-right: 50px;
 }
 
 .col1List_header, .componentTitle {
@@ -242,6 +246,18 @@ li {
 	height: 300px;
 	width: 32%;
 	background: red;
+} 
+
+.topRow:first-child {
+	background: url(assets/engravedWhiskeyBottle.jpg);
+}
+
+.topRow:nth-child(2) {
+	background: url(assets/whiskeyLetterPress.jpg);
+}
+
+.topRow:nth-child(3) {
+	background: url(assets/whiskeyGlass.jpg);
 }
 
 .secondRow {
@@ -249,6 +265,23 @@ li {
 	width: 24%;
 	background: purple;
 }
+
+.secondRow:first-child {
+	background: url(assets/whiskeyTank.jpg);
+}
+
+.secondRow:nth-child(2) {
+	background: url(assets/groomsmanGlass.jpg);
+}
+
+.secondRow:nth-child(3) {
+	background: url(assets/whiskeyCuffLinks.jpg);
+}
+
+.secondRow:nth-child(4) {
+	background: url(assets/whiskeyRing.jpg);
+}
+
 
 .galleryItem {
 	height: 300px;
@@ -489,4 +522,15 @@ label {
 .shipToComponent {
 	border-bottom: transparent;
 }
+
+h3 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #444444;
+	margin-bottom: 12px;
+	/*font-weight: bold;*/
+}
+
+
 
