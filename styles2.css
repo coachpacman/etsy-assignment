@@ -35,6 +35,10 @@ html {
 	float: left;
 }
 
+.float_right_only {
+	float: right;
+}
+
 input {
 	margin-top: 22px;
 	width: 379px;
@@ -191,6 +195,10 @@ li {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+}
+
+#secondRow {
+	border-bottom: 1px solid #E1E3DF;
 }
 
 #gallery {
@@ -400,6 +408,10 @@ li {
 	padding: 5px;
 }
 
+#galleryHeader {
+	width: 100%;
+}
+
 .galleryItem {
 	height: 300px;
 	width: 24%;
@@ -408,9 +420,19 @@ li {
 	margin-bottom: 45px;
 }
 
+.btn-secondary {
+	border: 0;
+	background-color: transparent;
+	color: #0192B5;
+	font-size: 13px;
+	margin: 0px;
+	padding-left: 0px;
+	position: relative;
+}
+
 #secondRow, .galleryRow {
 	margin: 18px 0;
-	height: 241px;
+	height: 223px;
 }
 
 #footer {
@@ -457,12 +479,15 @@ label {
 	display: block;
 }
 
-.radio-label, .checkbox-label {
+.radio-label, .checkbox-label, .categoryLabel {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 13px;
 	text-decoration: none;
 	/*font-weight: bold;*/
+}
+.categoryLabel2 {
+	margin-right: 10px;
 }
 
 .radio-label:before	{
@@ -624,7 +649,7 @@ label {
 	position: relative;
 }
 
-.select-wrap:after {
+.select-wrap:after, .btn-secondary:after {
 	position: absolute;
 	content: "";
 	display: block;
@@ -633,7 +658,12 @@ label {
 	border: 6px solid transparent;
 	border-top-color: #CBCCC9;
 	top: 17px;
-	left: 173px;
+	left: 173px
+}
+
+.btn-secondary:after {
+	top:7px;
+	left: 64px;
 }
 
 .shipToComponent {
