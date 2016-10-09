@@ -24,13 +24,15 @@ function putInDom(data) {
         <div class="galleryItem">
             <a href=${item.link}> 
             <div><img src="${item.img}"/></div>
-            <p class="truncate"> ${item.title} </p>
-            <p> ${item.price} </p>
-            <p> ${item.shopName} </p>
+            <p class="truncate galleryDescription"> ${item.title} </p>
+            <div class="galleryFooter">
+                <p class="galleryShop"> ${item.shopName} </p>
+                <p class="galleryPrice"> $${item.price} </p>
+            </div
             </a>
         </div>
         `
     })
 
-    $("#gallery").html(htmlStr)
+    $("#galleryDisplay").html(htmlStr)
 }

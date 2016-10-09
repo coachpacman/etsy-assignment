@@ -206,7 +206,6 @@ li {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 100%;
-	/*margin: -7px;*/
 }
 
 #showResults {
@@ -225,7 +224,7 @@ li {
 
 }
 
-.col1List a {
+.col1List a, .galleryItem a {
 	text-decoration: none;
 	line-height: 2.0;
 }
@@ -413,11 +412,65 @@ li {
 }
 
 .galleryItem {
-	height: 300px;
+	height: 259px;
 	width: 24%;
 	background: white;
 	border-radius: 3px;
-	margin-bottom: 45px;
+	margin-bottom: 23px;
+	border: 1px solid #E1E3DF;
+}
+
+.galleryItem:hover {
+	box-shadow: 0 1px 0 0 #b4b2b2;
+}
+
+
+.galleryItem img {
+	height: 198px;
+	width: 254px;
+	border-radius: 3px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#galleryDisplay {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.galleryDescription {
+	font-size: 13px;
+	color: #554455;
+	text-decoration: none;
+	margin-left: 6px;
+	margin-bottom: -18px;
+	margin-top: 0px;
+}
+
+.galleryShop {
+	font-size: 13px;
+	color:#9A9A9D;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 6px;
+}
+
+.galleryPrice {
+	font-size: 13px;
+	color: #78C042;
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	right: 6px;
+}
+
+.galleryFooter {
+	display: inline-block;
+	position: relative;
+	width: 100%;
 }
 
 .btn-secondary {
@@ -464,11 +517,6 @@ li {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-}
-
-.galleryItem img {
-	height: 217px;
-	width: 267px;
 }
 
 .rounded {
