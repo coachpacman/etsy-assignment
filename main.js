@@ -28,8 +28,12 @@ function putInDom(data) {
             <div class="galleryFooter">
                 <p class="galleryShop"> ${item.shopName} </p>
                 <p class="galleryPrice"> $${item.price} </p>
-            </div
+            </div>
             </a>
+            <div class="collections-ui">
+                <div class="favorite-container"></div>
+                <div class="collect-container"></div>
+            </div>
         </div>
         `
     })

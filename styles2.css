@@ -418,6 +418,7 @@ li {
 	border-radius: 3px;
 	margin-bottom: 23px;
 	border: 1px solid #E1E3DF;
+	position: relative;
 }
 
 .galleryItem:hover {
@@ -471,6 +472,52 @@ li {
 	display: inline-block;
 	position: relative;
 	width: 100%;
+}
+
+.collections-ui {
+	visibility: visible;
+	opacity: 0;
+	position: absolute;
+	right: 34px;
+	top: 3px;
+	border-radius: 4px;
+	z-index: 1;
+	transition: opacity .2s;
+}
+
+.collections-ui:hover {
+	opacity: 1;
+}
+
+
+.favorite-container {
+	width: 27px;
+	height: 23px;
+	position: relative;
+	background: url(assets/heart.png);
+	background-size: 17px;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	background-position-x: 4px;
+	background-position-y: 2px;
+}
+
+.collect-container {
+	position: relative;
+	width: 41px;
+	height: 23px;
+	background: url(assets/hamburger.png);
+	background-size: 17px;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	background-position-x: 4px;
+	background-position-y: 2px;
+	top: -23px;
+	left: 30px;
 }
 
 .btn-secondary {
@@ -697,7 +744,7 @@ label {
 	position: relative;
 }
 
-.select-wrap:after, .btn-secondary:after {
+.select-wrap:after, .btn-secondary:after, .collect-container:after {
 	position: absolute;
 	content: "";
 	display: block;
@@ -712,6 +759,11 @@ label {
 .btn-secondary:after {
 	top:7px;
 	left: 64px;
+}
+
+.collect-container:after {
+	top: 8px;
+	left: 23px;
 }
 
 .shipToComponent {
