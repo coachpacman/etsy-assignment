@@ -274,6 +274,49 @@ li {
 	background-position-x: -32px;
 }
 
+.topRowLabel {
+	position: absolute;
+	text-align: center;
+	line-height: 1.4;
+	top: 418px;
+	left: 377px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #FFF;
+	width: 168px;
+	padding: 5px;
+
+}
+.topRowLabel1 {
+	position: absolute;
+	text-align: center;
+	line-height: 1.4;
+	top: 418px;
+	left: 749px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #FFF;
+	width: 168px;
+	padding: 5px;
+}
+
+.topRowLabel2{
+	position: absolute;
+	text-align: center;
+	line-height: 1.4;
+	top: 418px;
+	left: 1116px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #FFF;
+	width: 168px;
+	padding: 5px;
+}
+
+.itemLabel {
+	font-size: 13px;
+}
+
 .secondRow {
 	height: 200px;
 	width: 24%;
@@ -305,6 +348,57 @@ li {
 	background-size: 255px;
 }
 
+.secondRowLabel {
+	position: absolute;
+	text-align: center;
+	line-height: 1.4;
+	top: 634px;
+	left: 363px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #FFF;
+	width: 108px;
+	padding: 5px;
+}
+
+.secondRowLabel1 {
+	position: absolute;
+	text-align: center;
+	line-height: 1.4;
+	top: 634px;
+	left: 614px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #FFF;
+	width: 147px;
+	padding: 5px;
+}
+
+.secondRowLabel2 {
+	position: absolute;
+	text-align: center;
+	line-height: 1.4;
+	top: 634px;
+	left: 888px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #FFF;
+	width: 147px;
+	padding: 5px;
+}
+
+.secondRowLabel3 {
+	position: absolute;
+	text-align: center;
+	line-height: 1.4;
+	top: 634px;
+	left: 1181px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #FFF;
+	width: 93px;
+	padding: 5px;
+}
 
 .galleryItem {
 	height: 300px;
@@ -546,14 +640,19 @@ label {
 	border-bottom: transparent;
 }
 
-h3 {
+h3, .h3 {
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 1.2;
-	color: #444444;
+	color: #222222;
 	margin-bottom: 12px;
 	/*font-weight: bold;*/
 }
 
+.h3 {
+	margin-bottom: 4px;
+	letter-spacing: 1px;
+	/*font-weight: bold;*/
+}
 
 
