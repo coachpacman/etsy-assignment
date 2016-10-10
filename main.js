@@ -23,7 +23,7 @@ function putInDom(data) {
         htmlStr += `
         <div class="galleryItem">
             <a href=${item.link}> 
-            <div><img src="${item.img}"/></div>
+            <div><img src="${item.img}" title="${item.description}"/></div>
             <p class="truncate galleryDescription"> ${item.title} </p>
             <div class="galleryFooter">
                 <p class="galleryShop"> ${item.shopName} </p>
